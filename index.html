@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <!--link rel="stylesheet" href="styles/style.css"/-->
+  <title>Login Form</title>
+  
+  <script src="login.js"></script>
+  
+  <style>
+  body{
+  font-family: Georgia;
+  background: black;
+  font-size: 18px;
+}
+#gr8 {
+  color: white;
+  font-size: 40px;
+  background: goldenrod;
+}
+#section1{
+ margin-left: 25px;
+  margin-top: 200px;
+  padding: 0px;
+}
+#login {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+input, #btnLoggin {
+  font-family: Georgia;
+  Color: black;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 5px;
+  margin-left: 0px;
+}
+#rights {
+  color: white;
+}
+  </style>
+</head>
+
+<body>
+  
+  <div id="section1">
+
+  <h1 id="login">
+    LOGIN FORM
+  </h1>
+  <form id ="theform" action="exam.html" onsubmit = "return myForm()">
+    
+
+  <input type="text" id="username" name="" placeholder="Username" required><br>
+  <input type="password" id="password" name="" placeholder="Password" required>
+  <button id="btnLoggin" onclick="testing()">Login</button>
+   </form> 
+    <hr>
+    <b id="rights">All Rights Reserved&copy;2023</b> 
+  </div>
+</body>
+</html>
